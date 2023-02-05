@@ -2,6 +2,8 @@
 layout: default
 title: Configuration
 nav_order: 2
+parent: Just the Docs Manual
+permalink: /docs/Just-the-Docs/Configuration
 ---
 
 # Configuration
@@ -18,7 +20,7 @@ Just the Docs has some specific configuration parameters that can be defined in 
 
 ---
 
-View this site's [\_config.yml](https://github.com/just-the-docs/just-the-docs/tree/main/_config.yml) file as an example.
+View this site's [\_config.yml](https://github.com/just-the-docs/tree/main/_config.yml) file as an example.
 
 ## Site logo
 
@@ -83,7 +85,7 @@ mermaid:
   version: "9.1.3"
 ```
 
-See [the Code documentation]({% link docs/ui-components/code.md %}#mermaid-diagram-code-blocks) for more configuration options and information.
+See [the Code documentation]({% link docs/just-the-docs/ui-components/code.md %}#mermaid-diagram-code-blocks) for more configuration options and information.
 
 ## Aux links
 
@@ -91,7 +93,7 @@ See [the Code documentation]({% link docs/ui-components/code.md %}#mermaid-diagr
 # Aux links for the upper right navigation
 aux_links:
   "Just the Docs on GitHub":
-    - "//github.com/just-the-docs/just-the-docs"
+    - "//github.com/just-the-docs"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
@@ -114,7 +116,7 @@ New (v0.4.0)
 {: .label .label-green }
 
 External links can be added to the navigation through the `nav_external_links` option.
-See [Navigation Structure]({% link docs/navigation-structure.md %}#external-navigation-links) for more details.
+See [Navigation Structure]({% link docs/just-the-docs/navigation-structure.md %}#external-navigation-links) for more details.
 
 ## Footer content
 
@@ -123,7 +125,7 @@ See [Navigation Structure]({% link docs/navigation-structure.md %}#external-navi
 # appears at the bottom of every page's main content
 # Note: The footer_content option is deprecated and will be removed in a future major release. Please use `_includes/footer_custom.html` for more robust
 markup / liquid-based content.
-footer_content: "Copyright &copy; 2017-2020 Patrick Marsceill. Distributed by an <a href=\"https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt\">MIT license.</a>"
+footer_content: "Copyright &copy; 2017-2020 Patrick Marsceill. Distributed by an <a href=\"https://github.com/just-the-docs/tree/main/LICENSE.txt\">MIT license.</a>"
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
@@ -132,7 +134,7 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub."
-gh_edit_repository: "https://github.com/just-the-docs/just-the-docs" # the github URL for your repo
+gh_edit_repository: "https://github.com/just-the-docs" # the github URL for your repo
 gh_edit_branch: "main" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
@@ -170,7 +172,7 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 });
 </script>
 
-See [Customization]({% link docs/customization.md %}) for more information.
+See [Customization]({% link docs/just-the-docs/customization.md %}) for more information.
 
 ## Callouts
 {: .d-inline-block }
@@ -227,7 +229,7 @@ The value of `callouts_level` is either `quiet` or `loud`;
 The default level is `quiet` when using the `light` or custom color schemes,
 and `loud` when using the `dark color scheme.`
 
-See [Callouts]({% link docs/ui-components/callouts.md %}) for more information.
+See [Callouts]({% link docs/just-the-docs/ui-components/callouts.md %}) for more information.
 
 ## Google Analytics
 

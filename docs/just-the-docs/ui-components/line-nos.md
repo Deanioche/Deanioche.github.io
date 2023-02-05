@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Code with line numbers
-parent: Code
-grand_parent: UI Components
-permalink: /docs/ui-components/code/line-numbers/
+parent: UI Components
+grand_parent: Just the Docs Manual
+permalink: docs/Just-the-Docs/UI-Components/line-numbers
 ---
 
 # Code snippets with line numbers

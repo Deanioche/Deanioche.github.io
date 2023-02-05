@@ -2,6 +2,8 @@
 layout: default
 title: Typography
 parent: Utilities
+grand_parent: Just the Docs Manual
+permalink: docs/Just-the-Docs/Utilities/Typography
 ---
 
 # Typography Utilities

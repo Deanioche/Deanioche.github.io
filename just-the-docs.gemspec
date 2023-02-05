@@ -7,13 +7,13 @@ Gem::Specification.new do |spec|
   spec.email         = ["patrick.marsceill@gmail.com", "matt@matthewwang.me"]
 
   spec.summary       = %q{A modern, highly customizable, and responsive Jekyll theme for documentation with built-in search.}
-  spec.homepage      = "https://github.com/just-the-docs/just-the-docs"
+  spec.homepage      = "https://github.com/Deanioche/Deanioche.github.io"
   spec.license       = "MIT"
   spec.metadata      = {
-    "bug_tracker_uri"   => "https://github.com/just-the-docs/just-the-docs/issues",
-    "changelog_uri"     => "https://github.com/just-the-docs/just-the-docs/blob/main/CHANGELOG.md",
-    "documentation_uri" => "https://just-the-docs.github.io/just-the-docs/",
-    "source_code_uri"   => "https://github.com/just-the-docs/just-the-docs",
+    "bug_tracker_uri"   => "https://github.com/Deanioche/Deanioche.github.io/issues",
+    "changelog_uri"     => "https://github.com/Deanioche/README.md",
+    "documentation_uri" => "https://Deanioche.github.io",
+    "source_code_uri"   => "https://github.com/Deanioche/Deanioche.github.io",
   }
 
   spec.files         = `git ls-files -z ':!:*.jpg' ':!:*.png'`.split("\x0").select { |f| f.match(%r{^(assets|bin|_layouts|_includes|lib|Rakefile|_sass|LICENSE|README|CHANGELOG|favicon)}i) }

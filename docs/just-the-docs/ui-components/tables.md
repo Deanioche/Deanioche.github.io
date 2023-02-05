@@ -2,6 +2,8 @@
 layout: default
 title: Tables
 parent: UI Components
+grand_parent: Just the Docs Manual
+permalink: docs/Just-the-Docs/UI-Components/Tables
 nav_order: 4
 ---
 

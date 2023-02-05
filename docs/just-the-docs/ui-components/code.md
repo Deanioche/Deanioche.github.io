@@ -2,7 +2,8 @@
 layout: default
 title: Code
 parent: UI Components
-has_children: true
+grand_parent: Just the Docs Manual
+permalink: docs/Just-the-Docs/UI-Components/Code
 nav_order: 6
 ---
 

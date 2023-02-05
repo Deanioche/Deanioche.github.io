@@ -2,6 +2,8 @@
 layout: default
 title: Navigation Structure
 nav_order: 5
+parent: Just the Docs Manual
+permalink: /docs/Just-the-Docs/Navigation-Structure
 ---
 
 # Navigation Structure
@@ -239,7 +241,7 @@ Currently, the navigation structure is limited to 3 levels: grandchild pages can
 
 ## Auxiliary Links
 
-To add auxiliary links to your site (in the upper right on all pages), add it to the `aux_links` [configuration option]({% link docs/configuration.md %}#aux-links) in your site's `_config.yml` file.
+To add auxiliary links to your site (in the upper right on all pages), add it to the `aux_links` [configuration option]({% link docs/just-the-docs/configuration.md %}#aux-links) in your site's `_config.yml` file.
 
 #### Example
 {: .no_toc }
@@ -248,14 +250,14 @@ To add auxiliary links to your site (in the upper right on all pages), add it to
 # Aux links for the upper right navigation
 aux_links:
   "Just the Docs on GitHub":
-    - "//github.com/just-the-docs/just-the-docs"
+    - "//github.com/just-the-docs"
 ```
 
 ---
 
 ## External Navigation Links
 
-To add external links to the navigation, add them to the `nav_external_links` [configuration]({% link docs/configuration.md %}) option in your site's `_config.yml` file.
+To add external links to the navigation, add them to the `nav_external_links` [configuration]({% link docs/just-the-docs/configuration.md %}) option in your site's `_config.yml` file.
 External links will appear in the navigation after the links to ordinary pages, but before any collections.
 
 #### Example
@@ -265,7 +267,7 @@ External links will appear in the navigation after the links to ordinary pages, 
 # External navigation links
 nav_external_links:
   - title: Just the Docs on GitHub
-    url: https://github.com/just-the-docs/just-the-docs
+    url: https://github.com/just-the-docs
     hide_icon: false # set to true to hide the external link icon - defaults to false
 ```
 

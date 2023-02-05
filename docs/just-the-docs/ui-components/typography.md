@@ -2,6 +2,8 @@
 layout: default
 title: Typography
 parent: UI Components
+grand_parent: Just the Docs Manual
+permalink: docs/Just-the-Docs/UI-Components/Typography
 nav_order: 1
 ---
 
@@ -111,4 +113,4 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 There are a number of specific typographic CSS classes that allow you to override default styling for font size, font weight, line height, and capitalization.
 
-[View typography utilities]({% link docs/utilities/typography.md %}){: .btn .btn-outline }
+[View typography utilities]({% link docs/just-the-docs/utilities/typography.md %}){: .btn .btn-outline }

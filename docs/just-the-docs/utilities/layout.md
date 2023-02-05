@@ -2,6 +2,8 @@
 layout: default
 title: Layout
 parent: Utilities
+grand_parent: Just the Docs Manual
+permalink: docs/Just-the-Docs/Utilities/Layout
 ---
 
 # Layout Utilities

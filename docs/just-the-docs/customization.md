@@ -2,6 +2,8 @@
 layout: default
 title: Customization
 nav_order: 6
+parent: Just the Docs Manual
+permalink: /docs/Just-the-Docs/Customization
 ---
 
 # Customization
@@ -64,7 +66,7 @@ If you want your custom scheme to be based on the `dark` scheme, you need to sta
 
 You can define custom schemes based on other custom schemes in the same way.
 
-Available variables are listed in the [\_variables.scss](https://github.com/just-the-docs/just-the-docs/tree/main/_sass/support/_variables.scss) file.
+Available variables are listed in the [\_variables.scss](https://github.com/just-the-docs/tree/main/_sass/support/_variables.scss) file.
 
 For example, to change the link color from the purple default to blue, include the following inside your scheme file:
 
@@ -115,7 +117,7 @@ New (v0.4.0)
 
 To define new SCSS variables, functions, or override existing theme variables, place SCSS code in `_sass/custom/setup.scss`. This should *not* be used for defining custom styles (see the next section).
 
-This is most commonly-used to define [custom callout colors]({% link docs/configuration.md %}#callouts). For example,
+This is most commonly-used to define [custom callout colors]({% link docs/just-the-docs/configuration.md %}#callouts). For example,
 
 ```scss
 // _sass/custom/setup.scss
@@ -169,7 +171,7 @@ New (v0.4.0)
 
 `_includes/toc_heading_custom.html`
 
-If the page has any child pages, and `has_toc` is not set to `false`, this content appears as a heading above the [auto-generating list of child pages]({% link docs/navigation-structure.md %}#auto-generating-table-of-contents) after the page's content.
+If the page has any child pages, and `has_toc` is not set to `false`, this content appears as a heading above the [auto-generating list of child pages]({% link docs/just-the-docs/navigation-structure.md %}#auto-generating-table-of-contents) after the page's content.
 
 #### Example
 {: .no_toc }
@@ -185,7 +187,7 @@ The (optional) `text-delta` class makes the heading appear as **Contents**{:.tex
 
 `_includes/footer_custom.html`
 
-This content appears at the bottom of every page's main content. More info for this include can be found in the [Configuration - Footer content]({% link docs/configuration.md %}#footer-content).
+This content appears at the bottom of every page's main content. More info for this include can be found in the [Configuration - Footer content]({% link docs/just-the-docs/configuration.md %}#footer-content).
 
 ### Custom Head
 

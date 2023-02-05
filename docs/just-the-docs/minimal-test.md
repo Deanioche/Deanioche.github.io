@@ -1,7 +1,9 @@
 ---
 layout: minimal
 title: Minimal layout test
-nav_exclude: true
+nav_exclude: false
+parent: Just the Docs Manual
+permalink: /docs/Just-the-Docs/minimal
 ---
 
 [Return to main website]({{site.baseurl}}/).

@@ -2,6 +2,8 @@
 layout: default
 title: Labels
 parent: UI Components
+grand_parent: Just the Docs Manual
+permalink: docs/Just-the-Docs/UI-Components/Labels
 nav_order: 3
 ---
 

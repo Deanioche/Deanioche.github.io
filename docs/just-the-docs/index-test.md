@@ -2,6 +2,8 @@
 layout: default
 title: Markdown kitchen sink
 nav_order: 99
+parent: Just the Docs Manual
+permalink: /docs/Just-the-Docs/index-test
 ---
 
 <button class="btn js-toggle-dark-mode">Preview dark color scheme</button>

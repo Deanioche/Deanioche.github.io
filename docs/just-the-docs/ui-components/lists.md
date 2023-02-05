@@ -3,6 +3,8 @@ layout: default
 title: Lists
 parent: UI Components
 nav_order: 5
+grand_parent: Just the Docs Manual
+permalink: docs/Just-the-Docs/UI-Components/Lists
 ---
 
 # Lists
