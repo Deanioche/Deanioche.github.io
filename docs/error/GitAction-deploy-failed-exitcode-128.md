@@ -1,12 +1,4 @@
 ---
-id: 6it32q1t5bht98zkklm769i
-title: Action failed with "The process '/usr/bin/git' failed with exit code 128"
-desc: ''
-updated: 1675497030713
-created: 1675496516425
----
-
----
 layout: default
 title: Action failed with "The process '/usr/bin/git' failed with exit code 128"
 parent: Error Note
