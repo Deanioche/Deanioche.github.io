@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Algorithm
+title: Memo
 nav_order: 1
 has_children: true
-permalink: /docs/algorithm
+permalink: /docs/memo
 ---
 
-# Algorithm
+# Memo
