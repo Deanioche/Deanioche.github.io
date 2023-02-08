@@ -103,8 +103,8 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 
 # External navigation links
 nav_external_links:
-  # - title: GitHub
-  #   url: https://github.com/Deanioche
+  - title: Algorithm
+    url: https://surimi.notion.site/9e26abce3e1845b792fb6cae0eef86ea?v=5f1b51b989304e3e8d108161773a2f0f
   - title: Tistory
     url: https://urakasumi.tistory.com
 
